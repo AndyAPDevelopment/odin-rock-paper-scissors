@@ -1,3 +1,8 @@
+Global variables for the game
+
+let humanScore = 0;
+let computerScore = 0;
+
 // Function - getComputerChoice
 
 function getComputerChoice() {
@@ -18,5 +23,3 @@ function getHumanChoice() {
   const choice = prompt("Enter rock, paper, or scissors:");
   return choice;
 }
-
-console.log(getHumanChoice());
